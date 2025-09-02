@@ -31,7 +31,7 @@ jobs:
     permissions:
       security-events: write
       actions: read
-    step:
+    steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
     - name: Initialize codeql
