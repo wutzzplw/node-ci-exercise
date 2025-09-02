@@ -4,9 +4,6 @@
   "description": "",
   "main": "src/app.js",
   "type": "module",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "start": "node app.js",
     "test": "mocha test",
