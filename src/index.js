@@ -7,6 +7,6 @@ const add = (a, b) => {
   //return result;
 
   //CodeQLCase
-  return eval('${a} + ${b}');
+  return eval(`${a} + ${b}`);
 };
 export default add;
