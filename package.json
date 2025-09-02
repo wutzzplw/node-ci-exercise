@@ -8,13 +8,17 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "lint": "npx eslint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^6.0.1",
-    "mocha": "^11.7.1"
+    "mocha": "^11.7.1",
+    "eslint":"^9.0.0",
+    "@eslint/js": "^9.0.0",
+    "globals": "^15.0.0"
   }
 }
